@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .container {
+    @apply max-w-[1440px] mx-auto px-3;
+  }
+}
+
+@layer base {
+  html,
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  h1{
+    @apply mb-4 text-[30px] md:text-[60px] font-bold;
+  }
+  h2{
+    @apply mb-4 md:text-[49px] font-bold;
+  }
+  p{
+    @apply mb-4;
+  }
+  p:last-child{
+    @apply mb-0;
+  }
+  img{
+    @apply w-full h-full object-cover
+  }
+  .button{
+    @apply bg-rp-blue inline-block text-white font-bold py-3 px-8;
+  }
+  section:not(.intro){
+    @apply mb-8 md:mb-[100px];
+  }
+  section:not(.intro):last-child{
+    @apply mb-0
+  }
+}
