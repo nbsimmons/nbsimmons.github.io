@@ -559,6 +559,13 @@ html,
   font-family: 'Roboto', sans-serif;
 }
 
+div.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}
+
 h1 {
   margin-bottom: 1rem;
   font-size: 30px;
@@ -652,6 +659,10 @@ section:not(.intro):last-child {
 
 .top-0 {
   top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .col-span-12 {
@@ -842,10 +853,6 @@ section:not(.intro):last-child {
   padding-bottom: 1.5rem;
 }
 
-.pb-\[30px\] {
-  padding-bottom: 30px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -934,10 +941,6 @@ section:not(.intro):last-child {
   .md\:py-\[50px\] {
     padding-top: 50px;
     padding-bottom: 50px;
-  }
-
-  .md\:pb-\[100px\] {
-    padding-bottom: 100px;
   }
 }
 
