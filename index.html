@@ -45,7 +45,14 @@
       <div class="flex justify-between items-center gap-x-5 md:gap-x-[100px]">
         <div class="flex gap-5 md:gap-10">
           <a href="/">Home</a>
-          <a href="/gallery">Gallery</a>
+          <div class="inline relative group">
+            <button class="">Services</button>
+            <ul class="bg-rp-blue text-white absolute hidden group-hover:block p-3 [&>li]:mb-2 [&>li:last-child]:mb-0">
+              <li>Pointing</li>
+              <li>Brickwork</li>
+            </ul>
+          </div>
+          <a href="/gallery.html">Gallery</a>
         </div>
         <div class="grow">
           <button class="button">Contact Us</button>

@@ -632,6 +632,14 @@ section:not(.intro):last-child {
   padding-right: 0.75rem;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
@@ -665,12 +673,32 @@ section:not(.intro):last-child {
   margin-top: 2rem;
 }
 
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[360px\] {
@@ -683,6 +711,10 @@ section:not(.intro):last-child {
 
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-\[780px\] {
@@ -785,6 +817,10 @@ section:not(.intro):last-child {
   padding: 2.5rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -798,6 +834,11 @@ section:not(.intro):last-child {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -815,6 +856,14 @@ section:not(.intro):last-child {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.peer:hover ~ .peer-hover\:block {
+  display: block;
 }
 
 @media (min-width: 990px) {
@@ -844,6 +893,10 @@ section:not(.intro):last-child {
 
   .md\:h-\[860px\] {
     height: 860px;
+  }
+
+  .md\:h-\[400px\] {
+    height: 400px;
   }
 
   .md\:w-auto {
@@ -877,4 +930,12 @@ section:not(.intro):last-child {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+.\[\&\>li\:last-child\]\:mb-0>li:last-child {
+  margin-bottom: 0px;
+}
+
+.\[\&\>li\]\:mb-2>li {
+  margin-bottom: 0.5rem;
 }
