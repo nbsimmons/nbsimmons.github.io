@@ -29,7 +29,7 @@
     @apply w-full h-full object-cover
   }
   .button{
-    @apply bg-rp-blue inline-block text-white font-bold py-3 px-8;
+    @apply bg-rp-blue inline-block text-white font-bold p-[10px] md:py-3 md:px-8;
   }
   section:not(.intro){
     @apply mb-8 md:mb-[100px];
