@@ -3,10 +3,7 @@
 module.exports = {
   content: [
     '*.html',
-    './layout/*.liquid',
-    './sections/*.liquid',
-    './snippets/*.liquid',
-    './assets/*.js'
+    '*/*.html',
   ],
   corePlugins: {
     container: false
