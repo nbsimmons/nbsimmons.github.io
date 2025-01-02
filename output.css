@@ -702,6 +702,14 @@ section:not(.intro):last-child {
   margin-top: 30px;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .inline {
   display: inline;
 }
