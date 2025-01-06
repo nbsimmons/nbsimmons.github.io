@@ -673,10 +673,6 @@ section:not(.intro):last-child {
   grid-column: span 6 / span 6;
 }
 
-.col-start-3 {
-  grid-column-start: 3;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -684,6 +680,10 @@ section:not(.intro):last-child {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .mb-5 {
@@ -694,20 +694,16 @@ section:not(.intro):last-child {
   margin-top: 0.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
 .mt-\[30px\] {
   margin-top: 30px;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .inline {
@@ -738,12 +734,20 @@ section:not(.intro):last-child {
   height: 100%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-\[70\%\] {
   width: 70%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[25px\] {
+  width: 25px;
 }
 
 .min-w-\[200px\] {
@@ -911,14 +915,6 @@ section:not(.intro):last-child {
     grid-column: span 6 / span 6;
   }
 
-  .md\:col-start-3 {
-    grid-column-start: 3;
-  }
-
-  .md\:col-start-2 {
-    grid-column-start: 2;
-  }
-
   .md\:-mt-\[150px\] {
     margin-top: -150px;
   }
@@ -941,6 +937,10 @@ section:not(.intro):last-child {
 
   .md\:h-\[860px\] {
     height: 860px;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:w-auto {
